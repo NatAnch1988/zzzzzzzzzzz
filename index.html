@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulated Chat App</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="nate-messages">
+            <!-- Nate's messages will be added here -->
+        </div>
+        <div class="ani-messages">
+            <!-- ANi's messages will be added here -->
+        </div>
+        <div class="chat-box">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button onclick="sendMessage('nate')">Send as Nate</button>
+            <button onclick="sendMessage('ani')">Send as ANi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
